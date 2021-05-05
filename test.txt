@@ -1,0 +1,11 @@
+user = int(input('enter the last number of fib : '))
+first = 0
+second = 1
+lst_fib = []
+while user >= first:
+    lst_fib.append(first)
+    temp = first
+    first= second
+    second = temp+second
+print(lst_fib)
+
